@@ -163,25 +163,35 @@
 
 					<fieldset>
 						<label for="name">What's your name?</label>
-						<input required cf-questions="Hey there! It’s nice to meet you — what should I call you?" type="text" name="name" id="name">
+						<input required cf-questions="Hi there! It’s nice to meet you — what should I call you?" type="text" name="name" id="name">
 					</fieldset>
 
-					<fieldset cf-questions="That’s great, {name}! Can you believe it’s this easy to use your voice?">
-						<h3>Can you believe it’s this easy to use your voice?</h3>
-						<label for="believe-1">Yes</label>
-						<input type="radio" name="believe" id="believe-1" value="yes">
+					<fieldset cf-questions="That’s great, {name}! Do you know much about OnTrack Rehab already?">
+						<h3> Do you know much about OnTrack Rehab already?</h3>
+						<label for="knowledge-1">Yes</label>
+						<input type="radio" name="knowledge" id="knowledge-1" value="yes">
 
-						<label for="believe-2">No</label>
-						<input type="radio" name="believe" id="believe-2" value="no">
+						<label for="knowledge-2">No</label>
+						<input type="radio" name="knowledge" id="knowledge-2" value="no">
 
-						<label for="believe-3">We’re in the future!</label>
-						<input type="radio" name="believe" id="believe-3" value="future">
+						<label for="knowledge-3">Please tell me more.</label>
+						<input type="radio" name="knowledge" id="knowledge-3" value="future">
 					</fieldset>
 
-					<fieldset>
+					<fieldset cf-questions="Thank you. Have you or someone you love ever had a stroke?">
+						<h3> Do you know much about OnTrack Rehab already?</h3>
+						<label for="bestrokelieve-1">Yes</label>
+						<input type="radio" name="stroke" id="stroke-1" value="yes">
+
+						<label for="stroke-2">No</label>
+						<input type="radio" name="stroke" id="stroke-2" value="no">
+
+					</fieldset>
+
+					<!-- <fieldset>
 						<label for="country">Where are you from?</label>
 						<input required cf-questions="And where are you from?" type="text" name="country" id="country">
-					</fieldset>
+					</fieldset> -->
 
 					<fieldset>
 						<label for="season">Favourite season</label>
